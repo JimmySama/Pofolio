@@ -7,7 +7,7 @@
   stroke-width: 10;
   fill: none;
   stroke-dasharray: 570;
-  stroke-dashoffset: 570;
+  stroke-dashoffset: 400;
   stroke-linecap: round;
   transform: translate(0.5rem, 0.5rem);
   -webkit-transform: translate(0.5rem, 0.5rem);
@@ -1019,19 +1019,19 @@ h1, .heading-4, h5, h6, .secondary-heading {
   position: relative;
 }
 .skill__box-item__circle--1 circle:last-child {
-  stroke-dashoffset: calc(570 - (570 * 78) / 100);
+  stroke-dashoffset: calc(400 - (400 * 78) / 100);
   stroke: currentColor;
 }
 .skill__box-item__circle--2 circle:last-child {
-  stroke-dashoffset: calc(570 - (570 * 59) / 100);
+  stroke-dashoffset: calc(400 - (400 * 59) / 100);
   stroke: currentColor;
 }
 .skill__box-item__circle--3 circle:last-child {
-  stroke-dashoffset: calc(570 - (570 * 81) / 100);
+  stroke-dashoffset: calc(400 - (400 * 81) / 100);
   stroke: currentColor;
 }
 .skill__box-item__circle--4 circle:last-child {
-  stroke-dashoffset: calc(570 - (570 * 65) / 100);
+  stroke-dashoffset: calc(400 - (400 * 65) / 100);
   stroke: currentColor;
 }
 .skill__box-item__circle .percentage {
